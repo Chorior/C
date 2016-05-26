@@ -18,5 +18,5 @@
             default: statements;
          }
 ```
-10.  如果一个case处理完毕之后没有break，那么会执行下一个case;
+10. 如果一个case处理完毕之后没有break，那么会执行下一个case;
 11. break用于循环和swith；而continue只用于循环；
