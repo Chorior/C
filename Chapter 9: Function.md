@@ -32,5 +32,5 @@
 14. 指针：用来存储地址的变量；用&取得变量的地址；
 15.  间接运算符*，当其后跟一个指针或地址时，表示存储在被指向地址中的数值；
 16. 定义指针的时候，*和指针名的空格是可选的：  
-    type_name *pointer;  
-    type_name * pointer;
+    ``type_name *pointer;  ``  
+    <br>``type_name * pointer;``</br>
