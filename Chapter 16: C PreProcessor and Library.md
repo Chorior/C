@@ -17,7 +17,7 @@
     * 如果有`#else`指令，那么在未定义标识符时会执行`#else`和`#endif`之间的所有代码；
 7. `#ifdef,#else,#endif`与Ｃ中的`if else`很像，主要差异为预处理器不能识别代码块中的花括号`{}`，因此使用`#else`（如果需要）和`#endif`（必须存在）来标记指令块；
 8. `#ifndef #else #endif`;
-9. 避免多次包含同意头文件的方法：
+9. 避免多次包含同一头文件的方法：
     <pre>
         #ifndef HEADER_H_
             #define HEADER_H_
